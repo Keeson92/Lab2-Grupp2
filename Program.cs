@@ -10,7 +10,7 @@ namespace Lab2_Grupp2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hejhej")
+            Console.WriteLine("Hejhej");
         }
     }
 }
