@@ -11,6 +11,7 @@ namespace Lab2_Grupp2
         static void Main(string[] args)
         {
             console.writeline("hej vi testar igen");
+            Console.WriteLine("Hejhej");
         }
     }
 }
