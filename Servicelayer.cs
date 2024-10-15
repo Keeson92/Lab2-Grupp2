@@ -53,6 +53,4 @@ namespace Data
         {
             return _anvandareLista;
         }
-
-        Console.WriteLine("Hejsan :D");
 }
