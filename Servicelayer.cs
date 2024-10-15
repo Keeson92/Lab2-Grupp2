@@ -1,6 +1,8 @@
 Console.WriteLine("Hej");
 
 
+namespace Data
+{
     public class AnvandareRepository
     {
         private List<AnvandareData> _anvandareLista;
@@ -27,3 +29,4 @@ Console.WriteLine("Hej");
         {
             return _anvandareLista;
         }
+}
