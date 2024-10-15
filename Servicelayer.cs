@@ -3,6 +3,30 @@ Console.WriteLine("Hej");
 
 namespace Data
 {
+        public class AnvandareData
+    {
+        public int AnvandarID { get; }
+        public string Fornamn { get; }
+        public string Efternamn { get; }
+        public string Signatur { get; }
+        public long Telefonnr { get; }
+        public string Epost { get; }
+        public string Lösenord { get; }
+        public int Behörighetsgrad { get; }
+
+        public AnvandareData(int anvandarID, string fornamn, string efternamn, string signatur, long telefonnr, string epost, string lösenord, int behörighetsgrad)
+        {
+            AnvandarID = anvandarID;
+            Fornamn = fornamn;
+            Efternamn = efternamn;
+            Signatur = signatur;
+            Telefonnr = telefonnr;
+            Epost = epost;
+            Lösenord = lösenord;
+            Behörighetsgrad = behörighetsgrad;
+        }
+    }
+
     public class AnvandareRepository
     {
         private List<AnvandareData> _anvandareLista;
