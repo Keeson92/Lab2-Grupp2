@@ -11,18 +11,18 @@ namespace Lab2_Grupp2
     {
         static void Main(string[] args)
         {
-                    public static bool Login()
-        {
-            int searchID;
-            Console.Write("AnvändarID: ");
+                 public static bool Login()
+                {
+                    int searchID;
+                    Console.Write("AnvändarID: ");
 
-            // Felsäkring då användarID är en int
-            try
-            {
-                searchID = int.Parse(Console.ReadLine());
-            }
-            catch (FormatException)
-            {
+                    // Felsäkring då användarID är en int
+                try
+                {
+                    searchID = int.Parse(Console.ReadLine());
+                }
+                catch (FormatException)
+                {
                 Console.WriteLine("Felaktig inmatning. Mata in ett giltigt AnvändarID.");
                 return false;
             }
@@ -69,6 +69,6 @@ namespace Lab2_Grupp2
                 return false; // Return false if user not found
             }
         }
-        }
+        
     }
 }
