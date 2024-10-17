@@ -1,7 +1,7 @@
 Console.WriteLine("Hej");
 
 
-namespace Data
+public namespace DataLists
 {
         public class AnvandareData
     {
